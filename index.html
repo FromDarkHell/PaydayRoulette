@@ -11,7 +11,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="./js/main.js" defer></script>
 	
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Payday Roulette</title>
@@ -25,11 +26,11 @@
 	<div class="parent">
 		<div class="container">
 			
-			<span style="margin-left: 4%;left: 40%;position: relative;top:8px;">Heist Picker</span>
+			<span style="margin-left: 4%;left: 40%;position: relative;top:8px;"><b>Heist Picker</b></span>
 			<span>
 				<span style="margin-left: 58%;top: 8px;position: relative;">Payday 1?</span>
 				<label class="switch" style="float: right;margin-right: 10px;">
-					<input type="checkbox" value="1" onclick='ChangeGameType()'>
+					<input type="checkbox" value="1" id="paydayBox" onclick='ChangeGameType()'>
 					<span class="slider round"></span>
 				</label>
 			</span>
@@ -61,7 +62,7 @@
 			
 			<br>
 			<hr>
-			<p>Gear Selector</p>
+			<p><b>Gear Selector</b></p>
 			
 			<div>
 				<table cellpadding="5px">

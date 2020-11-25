@@ -60,6 +60,8 @@ function startup() {
 
 	RandomizeHeists()
 	RandomizeGear()
+
+	document.getElementById("paydayBox").checked = false;
 }
 
 function ChangeGameType() {
