@@ -1,2 +1,3 @@
-# PaydayRoulette
- A random heist / gear picker meant for Payday 1 / 2
+## Payday Roulette
+
+A random heist (and soon to be, gear) picker meant for Payday 1 / 2
