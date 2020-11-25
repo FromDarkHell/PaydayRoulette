@@ -1,0 +1,18 @@
+{
+	"Payday2": {
+		"Normal": "",
+		"Hard": "./img/assets/difficulties/modified/Hard.png",
+		"Very Hard": "./img/assets/difficulties/modified/VeryHard.png",
+		"Overkill": "./img/assets/difficulties/modified/Overkill.png",
+		"Mayhem": "./img/assets/difficulties/modified/Mayhem.png",
+		"Death Wish": "./img/assets/difficulties/modified/DeathWish.png",
+		"Death Sentence": "./img/assets/difficulties/modified/DeathSentence.png"
+	},
+	"Payday1": {
+		"Normal": "",
+		"Hard": "./img/assets/difficulties/modified/Hard.png",
+		"Overkill": "./img/assets/difficulties/modified/VeryHard.png",
+		"Overkill 145+": "./img/assets/difficulties/modified/Overkill.png"
+	}
+
+}

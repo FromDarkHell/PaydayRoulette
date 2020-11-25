@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!-- <html class="no-js"> -->
+<!--<![endif]-->
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./js/main.js" defer></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Payday Roulette</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/styles.css">
+	
+</head>
+
+<body>
+	<div class="parent">
+		<div class="container">
+			<p>Heist Roulette</p>
+			
+			<hr>
+			
+			<div>
+				<table cellpadding="5px">
+					<tr>
+						<th>Heist</th>
+						<th>Contractor</th>
+						<th>Length</th>
+						
+						<th>Difficulty</th>
+						<th>Stealth?</th>
+					</tr>
+					<tr>
+						<td id="heistName" class="bottomRow">Big Oil</td>
+						<td id="contractor" class="bottomRow">The Elephant</td>
+						<td id="heistLength" class="bottomRow" >1 Day</td>
+						<td class="bottomRow" style="width: 144px">
+							<img width="144" id="diffImg" src="./img/assets/difficulties/modified/DeathWish.png" title="Overkill">
+						</td>
+						<td class="bottomRow" style="width: 40px;">
+							<span id="stealthable">No</span>
+							<img width="16" id="stealthImg" src="./img/assets/notes/ghost/cn_minighost.png" title="Stealthable">
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<hr>
+			
+			<div>
+				<span style="margin-left: 38%">
+					<button type="button" class="randomButton" onclick="RollRoulette();">Random Heist</button>
+				</span>
+				
+				<span style="padding-left: 140px">
+					<span >Payday 2?</span>
+					<label class="switch" style="float: right;margin-right: 10px;">
+						<input type="checkbox" value="on" onclick='ChangeGameType()'>
+						<span class="slider round"></span>
+					</label>
+				</span>
+			</div>
+			
+		</div>
+	</div>
+</body>
+
+</html>

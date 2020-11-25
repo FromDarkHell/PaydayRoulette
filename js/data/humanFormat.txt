@@ -1,0 +1,85 @@
+Bain:
+	Art Gallery
+	Bank Heist
+	Car Shop
+	Cook Off
+	Diamond Store
+	GO Bank
+	Jewelry Store
+	Reservoir Dogs Heist
+	Shadow Raid
+	The Alesso Heist
+	Transport
+	Transport: Train Heist
+	Classic 	Diamond Heist
+	First World Bank
+	Green Bridge
+	Heat Street
+	No Mercy
+	Panic Room
+	Slaughterhouse
+	Counterfeit
+	Undercover
+
+Locke:
+	Alaskan Deal
+	Breakin' Feds
+	Brooklyn Bank
+	Hell's Island
+	Henry's Rock
+	Shacklethorne Auction
+	The White House
+	Beneath the Mountain
+	Birth of Sky
+	Border Crossing
+	Border Crystals
+	Breakfast in Tijuana
+	The Dentist 	Hoxton Breakout
+	Hoxton Revenge
+	The Big Bank
+	The Diamond
+	Golden Grin Casino
+	Hotline Miami
+
+The Elephant:
+	Big Oil
+	Election Day
+	Framing Frame
+	The Biker Heist
+	Vlad 	Aftershock
+	Four Stores
+	Mallcrasher
+	Meltdown
+	Nightclub
+	Santa's Workshop
+	Stealing Xmas
+	Ukrainian Job
+	White Xmas
+	Goat Simulator
+	San Martín Bank
+	Buluc's Mansion
+
+The Butcher: 
+	The Bomb: Dockyard
+	The Bomb: Forest
+	Scarface Mansion
+The Continental: 
+	Brooklyn 10-10
+	The Yacht Heist
+Hector: 
+	Firestarter
+	Rats
+	Watchdogs
+Jimmy: 
+	Boiling Point
+	Murky Station
+Event: 
+	Cursed Kill Room
+	Lab Rats
+	Prison Nightmare
+	Safe House Nightmare
+Basic: 
+	Flash Drive
+	Get the Coke
+Other: 
+	Safe House Raid
