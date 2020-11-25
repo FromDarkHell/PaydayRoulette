@@ -1,5 +1,7 @@
 heistsData = null;
 difficultiesData = null;
+gearData = null;
+
 gameToRoll = "Payday2";
 
 // https://stackoverflow.com/questions/2532218/pick-random-property-from-a-javascript-object
@@ -41,18 +43,35 @@ function startup() {
 		},
 		error: function() { alert('Unable to contact the server!\nPlease contact the developers!'); }
 	});
+	$.ajax({
+		async: false,
+		url: 'js/data/gear.json',
+		dataType: 'json',
+		success: function(response) {
+			try { 
+				gearData = response;
+			} catch (err) {
+				(console.error || console.log).call(console, err.stack || err);
+				alert('Error retrieving data from the JSON file!\nPlease contact the developers!');
+			}
+		},
+		error: function() { alert('Unable to contact the server!\nPlease contact the developers!'); }
+	});
 
-	RollRoulette()
+	RandomizeHeists()
+	RandomizeGear()
 }
 
 function ChangeGameType() {
 	if(gameToRoll == "Payday2") gameToRoll = "Payday1";
 	else if(gameToRoll == "Payday1") gameToRoll = "Payday2";
-	RollRoulette();
+
+	RandomizeHeists();
+	RandomizeGear();
 }
 
-function RollRoulette() {
-	console.log("Rolling roulette for game: " + gameToRoll)
+function RandomizeHeists() {
+	console.log("Rolling heists roulette for game: " + gameToRoll)
 
 	gameHeists = heistsData[gameToRoll]
 	gameDifficulties = difficultiesData[gameToRoll]
@@ -79,11 +98,25 @@ function RollRoulette() {
 	}
 	else if(randomHeistData["loudable"] && !randomHeistData["stealthable"]) {
 		document.getElementById("stealthable").innerText = "No"
-		document.getElementById("stealthImg").src = ""
+		// Empty 16x16 pixel for browser compatability
+		document.getElementById("stealthImg").src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAEUlEQVR42mNkIAAYRxWMJAUAE5gAEdz4t9QAAAAASUVORK5CYII="
 	}
 	else if(randomHeistData["stealthable"]) {
 		document.getElementById("stealthable").innerText = "Yes"
 		document.getElementById("stealthImg").src = "./img/assets/notes/ghost/cn_minighost.png"
 	}
+}
 
+function RandomizeGear() {
+	console.log("Rolling gear roulette for game: " + gameToRoll)
+	gameGear = gearData[gameToRoll]
+	primaryWep = randomProperty(gameGear["Primary"])["value"]
+	secondaryWep = randomProperty(gameGear["Secondary"])["value"]
+	throwableWep = ("Throwable" in gameGear) ? randomProperty(gameGear["Throwable"])["value"] : "N/A"
+	meleeWep = ("Melee" in gameGear) ? randomProperty(gameGear["Melee"])["value"] : "N/A"
+
+	document.getElementById("primary").innerText = primaryWep
+	document.getElementById("secondary").innerText = secondaryWep
+	document.getElementById("throwable").innerText = throwableWep
+	document.getElementById("melee").innerText = meleeWep
 }

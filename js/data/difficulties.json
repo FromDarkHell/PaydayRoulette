@@ -1,6 +1,6 @@
 {
 	"Payday2": {
-		"Normal": "",
+		"Normal": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAAYCAQAAAC/rLyGAAAANklEQVR42u3QAQ0AAAwCoNu/9BsYwEEEclRRIEiQIEGCBAkShCBBggQJEiRIEIIECRIkSNCCB23TABlujs5xAAAAAElFTkSuQmCC",
 		"Hard": "./img/assets/difficulties/modified/Hard.png",
 		"Very Hard": "./img/assets/difficulties/modified/VeryHard.png",
 		"Overkill": "./img/assets/difficulties/modified/Overkill.png",
@@ -9,7 +9,7 @@
 		"Death Sentence": "./img/assets/difficulties/modified/DeathSentence.png"
 	},
 	"Payday1": {
-		"Normal": "",
+		"Normal": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAAYCAQAAAC/rLyGAAAANklEQVR42u3QAQ0AAAwCoNu/9BsYwEEEclRRIEiQIEGCBAkShCBBggQJEiRIEIIECRIkSNCCB23TABlujs5xAAAAAElFTkSuQmCC",
 		"Hard": "./img/assets/difficulties/modified/Hard.png",
 		"Overkill": "./img/assets/difficulties/modified/VeryHard.png",
 		"Overkill 145+": "./img/assets/difficulties/modified/Overkill.png"

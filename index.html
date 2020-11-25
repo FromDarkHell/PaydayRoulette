@@ -24,9 +24,16 @@
 <body>
 	<div class="parent">
 		<div class="container">
-			<p>Heist Roulette</p>
 			
-			<hr>
+			<span style="margin-left: 4%;left: 40%;position: relative;top:8px;">Heist Picker</span>
+			<span>
+				<span style="margin-left: 58%;top: 8px;position: relative;">Payday 1?</span>
+				<label class="switch" style="float: right;margin-right: 10px;">
+					<input type="checkbox" value="1" onclick='ChangeGameType()'>
+					<span class="slider round"></span>
+				</label>
+			</span>
+			<br><br>
 			
 			<div>
 				<table cellpadding="5px">
@@ -34,7 +41,6 @@
 						<th>Heist</th>
 						<th>Contractor</th>
 						<th>Length</th>
-						
 						<th>Difficulty</th>
 						<th>Stealth?</th>
 					</tr>
@@ -53,22 +59,35 @@
 				</table>
 			</div>
 			
+			<br>
 			<hr>
+			<p>Gear Selector</p>
 			
 			<div>
-				<span style="margin-left: 38%">
-					<button type="button" class="randomButton" onclick="RollRoulette();">Random Heist</button>
-				</span>
-				
-				<span style="padding-left: 140px">
-					<span >Payday 2?</span>
-					<label class="switch" style="float: right;margin-right: 10px;">
-						<input type="checkbox" value="on" onclick='ChangeGameType()'>
-						<span class="slider round"></span>
-					</label>
+				<table cellpadding="5px">
+					<tr>
+						<th>Primary</th>
+						<th>Secondary</th>
+						<th>Throwable</th>
+						<th>Melee</th>
+					</tr>
+					<tr>
+						<td id="primary" class="bottomRow">Primary</td>
+						<td id="secondary" class="bottomRow">Secondary</td>
+						<td id="throwable" class="bottomRow">Throwable</td>
+						<td id="melee" class="bottomRow">Melee</td>
+					</tr>
+				</table>
+			</div>
+			<br>
+			<div>
+				<span>
+					<button style="border-radius: 5px;border: none;top:5px;position: relative;"type="button" class="randomButton" onclick="RandomizeHeists();">Random Heist</button>
+					<button style="border-radius: 5px;border: none;top:5px;position: relative;left:5px;"type="button" class="randomButton" onclick="RandomizeGear();">Random Equipment</button>
+					
 				</span>
 			</div>
-			
+			<br>
 		</div>
 	</div>
 </body>

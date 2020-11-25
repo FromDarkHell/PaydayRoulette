@@ -1,111 +1,535 @@
 {
-	"__comment1": "All data scraped from: https://payday.fandom.com/wiki/Category:PAYDAY_2_heists#Heists and https://payday.fandom.com/wiki/PAYDAY:_The_Heist#Heists",
-	"Payday2": {
-		"Art Gallery": {"contractor": "Bain", "days":1, "stealthable":true, "loudable": true},
-
-		"Bank Heist: Deposit": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-		"Bank Heist: Cash": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-		"Bank Heist: Random": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-		"Bank Heist: Gold": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-
-		"Car Shop": {"contractor": "Bain", "days":1, "stealthable": false, "loudable": true},
-		"Cook Off": {"contractor": "Bain", "days":1, "stealthable": false, "loudable": true},
-		"Diamond Store": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-		"GO Bank": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-		"Jewlery Store": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-		"Reservoir Dogs": {"contractor": "Bain", "days":2, "stealthable": false, "loudable": true},
-		"Shadow Raid": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": false},
-		"The Alesso Heist": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-
-		"Transport: Crossroads": {"contractor": "Bain", "days":1, "stealthable": false, "loudable": true},
-		"Transport: Downtown": {"contractor": "Bain", "days":1, "stealthable": false, "loudable": true},
-		"Transport: Harbor": {"contractor": "Bain", "days":1, "stealthable": false, "loudable": true},
-		"Transport: Park": {"contractor": "Bain", "days":1, "stealthable": false, "loudable": true},
-		"Transport: Underpass": {"contractor": "Bain", "days":1, "stealthable": false, "loudable": true},
-
-		"Transport: Train": {"contractor": "Bain", "days":1, "stealthable": true, "loudable": true},
-
-		"Diamond Heist": {"contractor": "Classics", "days":1, "stealthable": true, "loudable": true},
-		"First World Bank": {"contractor": "Classics", "days":1, "stealthable": true, "loudable": true},
-		"Green Bridge": {"contractor": "Classics", "days":1, "stealthable": false, "loudable": true},
-		"Heat Street": {"contractor": "Classics", "days":1, "stealthable": false, "loudable": true},
-		"No Mercy": {"contractor": "Classics", "days":1, "stealthable": false, "loudable": true},
-		"Panic Room": {"contractor": "Classics", "days":1, "stealthable": false, "loudable": true},
-		"Slaughterhouse": {"contractor": "Classics", "days":1, "stealthable": false, "loudable": true},
-		"Counterfeit": {"contractor": "Classics", "days":1, "stealthable": false, "loudable": true},
-		"Undercover": {"contractor": "Classics", "days":1, "stealthable": false, "loudable": true},
-
-		"Alaskan Deal": {"contractor": "Locke", "days":1, "stealthable": false, "loudable": true},
-		"Breakin' Feds": {"contractor": "Locke", "days":1, "stealthable": true, "loudable": false},
-		"Brooklyn Bank": {"contractor": "Locke", "days":1, "stealthable": false, "loudable": true},
-		"Hell's Island": {"contractor": "Locke", "days":1, "stealthable": false, "loudable": true},
-		"Henry's Rock": {"contractor": "Locke", "days":1, "stealthable": false, "loudable": true},
-		"Shacklethorne Auction": {"contractor": "Locke", "days":1, "stealthable": true, "loudable": true},
-		"The White House": {"contractor": "Locke", "days":1, "stealthable": true, "loudable": true},
-		"Beneath the Mountain": {"contractor": "Locke", "days":1, "stealthable": false, "loudable": true},
-		"Birth of Sky": {"contractor": "Locke", "days":1, "stealthable": false, "loudable": true},
-		"Border Crossing": {"contractor": "Locke", "days":1, "stealthable": true, "loudable": true},
-		"Border Crystals": {"contractor": "Locke", "days":1, "stealthable": false, "loudable": true},
-		"Breakfast in Tijuana": {"contractor": "Locke", "days":1, "stealthable": true, "loudable": true},
-
-		"Hoxton Breakout": {"contractor": "The Dentist", "days": 2, "stealthable": false, "loudable": true},
-		"Hoxton Revenge": {"contractor": "The Dentist", "days": 1, "stealthable": true, "loudable": true},
-		"The Big Bank": {"contractor": "The Dentist", "days": 1, "stealthable": true, "loudable": true},
-		"The Diamond": {"contractor": "The Dentist", "days": 1, "stealthable": true, "loudable": true},
-		"Golden Grin Casino": {"contractor": "The Dentist", "days": 1, "stealthable": true, "loudable": true},
-		"Hotline Miami": {"contractor": "The Dentist", "days": 2, "stealthable": false, "loudable": true},
-
-		"Big Oil": {"contractor": "The Elephant", "days": 2, "stealthable": false, "loudable": true},
-		"Election Day": {"contractor": "The Elephant", "days": 2, "stealthable": true, "loudable": true},
-		"Framing Frame": {"contractor": "The Elephant", "days": 3, "stealthable": true, "loudable": true},
-		"The Biker Heist": {"contractor": "The Elephant", "days": 2, "stealthable": false, "loudable": true},
-
-		"Aftershock": {"contractor": "Vlad", "days": 1, "stealthable": false, "loudable": true},
-		"Four Stores": {"contractor": "Vlad", "days": 1, "stealthable": true, "loudable": true},
-		"Mallcrasher": {"contractor": "Vlad", "days": 1, "stealthable": false, "loudable": true},
-		"Meltdown": {"contractor": "Vlad", "days": 1, "stealthable": true, "loudable": true},
-		"Nightclub": {"contractor": "Vlad", "days": 1, "stealthable": true, "loudable": true},
-		"Santa's Workshop": {"contractor": "Vlad", "days": 1, "stealthable": false, "loudable": true},
-		"Stealing Xmas": {"contractor": "Vlad", "days": 1, "stealthable": false, "loudable": true},
-		"Ukrainian Job": {"contractor": "Vlad", "days": 1, "stealthable": true, "loudable": true},
-		"White Xmas": {"contractor": "Vlad", "days": 1, "stealthable": false, "loudable": true},
-		"Goat Simulator": {"contractor": "Vlad", "days": 2, "stealthable": false, "loudable": true},
-		"San Martín Bank": {"contractor": "Vlad", "days": 1, "stealthable": true, "loudable": true},
-		"Buluc's Mansion": {"contractor": "Vlad", "days": 1, "stealthable": true, "loudable": true},
-
-		"The Bomb: Dockyard": {"contractor": "The Butcher", "days": 1, "stealthable": true, "loudable": true},
-		"The Bomb: Forest": {"contractor": "The Butcher", "days": 1, "stealthable": false, "loudable": true},
-		"Scarface Mansion": {"contractor": "The Butcher", "days": 1, "stealthable": true, "loudable": true},
-
-		"Brooklyn 10-10": {"contractor": "The Continental", "days": 1, "stealthable": false, "loudable": true},
-		"The Yacht Heist": {"contractor": "The Continental", "days": 1, "stealthable": true, "loudable": false},
-
-		"Firestarter": {"contractor": "Hector", "days": 3, "stealthable": true, "loudable": true},
-		"Rats": {"contractor": "Hector", "days": 3, "stealthable": false, "loudable": true},
-		"Watchdogs": {"contractor": "Hector", "days": 2, "stealthable": false, "loudable": true},
-
-		"Boiling Point": {"contractor": "Jimmy", "days": 1, "stealthable": false, "loudable": true},
-		"Murky Station": {"contractor": "Jimmy", "days": 1, "stealthable": true, "loudable": false},
-
-		"Cursed Kill Room": {"contractor": "Events", "days": 1, "stealthable": false, "loudable": true},
-		"Lab Rats": {"contractor": "Events", "days": 1, "stealthable": false, "loudable": true},
-		"Prison Nightmare": {"contractor": "Events", "days": 1, "stealthable": false, "loudable": true},
-		"Safe House Nightmare": {"contractor": "Events", "days": 1, "stealthable": false, "loudable": true},
-
-		"Flash Drive": {"contractor": "Basic", "days": 2, "stealthable": false, "loudable": true},
-		"Get the Coke": {"contractor": "Basic", "days": 2, "stealthable": true, "loudable": false},
-		"Safe House Raid": {"contractor": "Other", "days": 1, "stealthable": false, "loudable": true}
-	},
-	"Payday1": {
-		"First World Bank": {"contractor": "Bain", "days": 1, "stealthable":true, "loudable": true},
-		"Heat Street": {"contractor": "Bain", "days": 1, "stealthable":false, "loudable": true},
-		"Panic Room": {"contractor": "Bain", "days": 1, "stealthable":false, "loudable": true},
-		"Green Bridge": {"contractor": "Bain", "days":1, "stealthable":false, "loudable": true},
-		"Diamond Heist": {"contractor": "Bain", "days":1, "stealthable":true, "loudable": true},
-		"Slaughterhouse": {"contractor": "Bain", "days":1, "stealthable":false, "loudable": true},
-		"Undercover": {"contractor": "Bain", "days":1, "stealthable":false, "loudable": true},
-		"Counterfeit": {"contractor": "Bain", "days":1, "stealthable":false, "loudable": true},
-		"No Mercy": {"contractor": "Bain", "days":1, "stealthable":false, "loudable": true}
-
-	}
+    "__comment1": "All data scraped from: https://payday.fandom.com/wiki/Category:PAYDAY_2_heists#Heists and https://payday.fandom.com/wiki/PAYDAY:_The_Heist#Heists",
+    "Payday2": {
+        "Art Gallery": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Bank Heist: Deposit": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Bank Heist: Cash": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Bank Heist: Gold": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Bank Heist: Random": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Car Shop": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": false
+        },
+        "Cook Off": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Diamond Store": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "GO Bank": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Jewelry Store": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Reservoir Dogs Heist": {
+            "contractor": "Bain",
+            "days": 2,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Shadow Raid": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": false
+        },
+        "The Alesso Heist": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Transport: Crossroads": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Transport: Downtown": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Transport: Harbor": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Transport: Park": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Transport: Underpass": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Transport: Train Heist": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Diamond Heist (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "First World Bank (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Green Bridge (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Heat Street (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "No Mercy (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Panic Room (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Slaughterhouse (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Counterfeit (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Undercover (Payday 2)": {
+            "contractor": "Classics",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Alaskan Deal": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Breakin' Feds": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": true,
+            "loudable": false
+        },
+        "Brooklyn Bank": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Hell's Island": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Henry's Rock": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Shacklethorne Auction": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "The White House": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Beneath the Mountain": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Birth of Sky": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Border Crossing": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Border Crystals": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Breakfast in Tijuana": {
+            "contractor": "Locke",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Hoxton Breakout": {
+            "contractor": "The Dentist",
+            "days": 2,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Hoxton Revenge": {
+            "contractor": "The Dentist",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "The Big Bank": {
+            "contractor": "The Dentist",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "The Diamond": {
+            "contractor": "The Dentist",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Golden Grin Casino": {
+            "contractor": "The Dentist",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Hotline Miami": {
+            "contractor": "The Dentist",
+            "days": 2,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Big Oil": {
+            "contractor": "The Elephant",
+            "days": 2,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Election Day": {
+            "contractor": "The Elephant",
+            "days": 2,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Framing Frame": {
+            "contractor": "The Elephant",
+            "days": 3,
+            "stealthable": true,
+            "loudable": true
+        },
+        "The Biker Heist": {
+            "contractor": "The Elephant",
+            "days": 2,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Aftershock": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Four Stores": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Mallcrasher": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Meltdown": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Nightclub": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Santa's Workshop": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Stealing Xmas": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Ukrainian Job": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "White Xmas": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Goat Simulator": {
+            "contractor": "Vlad",
+            "days": 2,
+            "stealthable": false,
+            "loudable": true
+        },
+        "San Mart\u00edn Bank": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Buluc's Mansion": {
+            "contractor": "Vlad",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "The Bomb: Dockyard": {
+            "contractor": "The Butcher",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "The Bomb: Forest": {
+            "contractor": "The Butcher",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Scarface Mansion": {
+            "contractor": "The Butcher",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Brooklyn 10-10": {
+            "contractor": "The Continental",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "The Yacht Heist": {
+            "contractor": "The Continental",
+            "days": 1,
+            "stealthable": true,
+            "loudable": false
+        },
+        "Firestarter": {
+            "contractor": "Hector",
+            "days": 3,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Rats": {
+            "contractor": "Hector",
+            "days": 3,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Watchdogs": {
+            "contractor": "Hector",
+            "days": 2,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Boiling Point": {
+            "contractor": "Jimmy",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Murky Station": {
+            "contractor": "Jimmy",
+            "days": 1,
+            "stealthable": true,
+            "loudable": false
+        },
+        "Cursed Kill Room": {
+            "contractor": "Events",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Lab Rats": {
+            "contractor": "Events",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Prison Nightmare": {
+            "contractor": "Events",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Safe House Nightmare": {
+            "contractor": "Events",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Flash Drive": {
+            "contractor": "Basic",
+            "days": 2,
+            "stealthable": true,
+            "loudable": false
+        },
+        "Get the Coke": {
+            "contractor": "Basic",
+            "days": 2,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Safe House Raid": {
+            "contractor": "Hoxton",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        }
+    },
+    "Payday1": {
+        "First World Bank": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Heat Street": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Panic Room": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Green Bridge": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Diamond Heist": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": true,
+            "loudable": true
+        },
+        "Slaughterhouse": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Undercover": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "Counterfeit": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        },
+        "No Mercy": {
+            "contractor": "Bain",
+            "days": 1,
+            "stealthable": false,
+            "loudable": true
+        }
+    }
 }
